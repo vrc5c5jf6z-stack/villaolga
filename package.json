@@ -1,10 +1,12 @@
 {
   "name": "villaolga",
   "version": "1.0.0",
-  "description": "Villa Olga TV Hotel App",
+  "description": "Villa Olga TV Launcher",
   "main": "index.html",
   "tizenbrew": {
-    "type": "app"
+    "type": "web",
+    "url": "https://villaolga.hr/rezeption-olga-99/index.html"
   }
 }
+
 
