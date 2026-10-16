@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://w3.org" xmlns:tizen="http://tizen.org" id="https://villaolga.tv" version="1.0.0" viewmodes="fullscreen">
+    <tizen:application id="VilaOlgaTV.HotelApp" package="VilaOlgaTV" required_version="2.3"/>
+    <content src="index.html"/>
+    <icon src="icon.png"/>
+    <name>Villa Olga TV</name>
+    
+    <!-- 🌐 Netzwerkrechte für Webinhalte -->
+    <access origin="*" subdomains="true"/> 
+    
+    <!-- 🔑 Erforderliche Sicherheits-Features für Tizen-Web-Apps -->
+    <tizen:privilege name="http://tizen.org"/>
+    <tizen:privilege name="http://tizen.org"/>
+    
+    <!-- 🎮 Aktiviert die Steuerung per Fernbedienung -->
+    <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto"/>
+</widget>
