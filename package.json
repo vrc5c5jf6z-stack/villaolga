@@ -1,9 +1,8 @@
 {
-  "name": "vrc5c5jf6z-stack/villaolga",
+  "name": "villaolga",
   "version": "1.0.0",
   "description": "Villa Olga TV Hotel App",
   "main": "index.html",
-  "type": "module",
   "tizenbrew": {
     "type": "app"
   }
